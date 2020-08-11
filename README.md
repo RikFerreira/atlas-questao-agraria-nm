@@ -79,7 +79,7 @@ Construção do banco de dados do Atlas da Questão Agrária no Norte de Minas
 
 ## Programa de Aquisição de Alimentos
 
-[PAA Dados Abertos](http://dados.gov.br/dataset/paa-programa-de-aquisicao-de-alimentos-da-agricultura-familiar)
+[PAA Dados Abertos](https://aplicacoes.mds.gov.br/sagi/paa/visi_paa_geral/pg_principal.php?url=abertura)
 
 ## Territórios rurais e da cidadania
 
