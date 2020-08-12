@@ -1,5 +1,6 @@
 library(tidyverse)
 library(sf)
+library(knitr)
 
 attr <- st_read("./output/atlas.gpkg") %>%
   st_drop_geometry() %>%
@@ -70,4 +71,6 @@ attr %>%
       "Quantidade de tratores, implementos e máquinas agrícolas em estabelecimentos agropecuários no município em 2017",
       "Territórios da cidadania"
     )
-  )
+  ) %>%
+  kable() %>%
+  writeLines("./docs/dicionario.md")
