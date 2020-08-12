@@ -1,90 +1,90 @@
-COD_MUN
-3101003
-3106655
-3107307
-3108255
-3108503
-3108602
-3109402
-3111150
-3112703
-3115474
-3116159
-3116506
-3117836
-3118809
-3120300
-3120870
-3122355
-3123809
-3124302
-3126604
-3126703
-3127073
-3127339
-3127354
-3127800
-3128253
-3129608
-3129657
-3130051
-3130655
-3132008
-3132107
-3135050
-3135100
-3135209
-3135357
-3135605
-3136579
-3136801
-3136959
-3137304
-3138104
-3138658
-3138682
-3139250
-3139300
-3140852
-3141009
-3142007
-3142254
-3142700
-3142908
-3143302
-3143450
-3144656
-3145059
-3145372
-3145455
-3146255
-3146552
-3147956
-3149150
-3150570
-3151206
-3152131
-3152204
-3154457
-3154507
-3155603
-3156502
-3157005
-3157377
-3157609
-3160454
-3161106
-3162252
-3162401
-3162450
-3162658
-3162708
-3164209
-3166956
-3168002
-3170008
-3170529
-3170651
-3170800
-3170909
-3171030
+COD_UF,NOME_UF,COD_RGINT,NOME_RGINT,COD_RGI,NOME_RGI,COD_MESO,NOME_MESO,COD_MICRO,NOME_MICRO,COD_MUN,NOME_MUN
+31,Minas Gerais,3103,Teófilo Otoni,310018,Pedra Azul,3102,Norte de Minas,31005,Salinas,3101003,Águas Vermelhas
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3106655,Berizal
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31009,Bocaiúva,3107307,Bocaiúva
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3108255,Bonito de Minas
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31008,Grão Mogol,3108503,Botumirim
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3108602,Brasília de Minas
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31006,Pirapora,3109402,Buritizeiro
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3111150,Campo Azul
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3112703,Capitão Enéas
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31004,Janaúba,3115474,Catuti
+31,Minas Gerais,3102,Montes Claros,310011,São Francisco,3102,Norte de Minas,31003,Januária,3116159,Chapada Gaúcha
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3116506,Claro dos Poções
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3117836,Cônego Marinho
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3118809,Coração de Jesus
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31008,Grão Mogol,3120300,Cristália
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3120870,Curral de Dentro
+31,Minas Gerais,3103,Teófilo Otoni,310018,Pedra Azul,3102,Norte de Minas,31005,Salinas,3122355,Divisa Alegre
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31009,Bocaiúva,3123809,Engenheiro Navarro
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31004,Janaúba,3124302,Espinosa
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31009,Bocaiúva,3126604,Francisco Dumont
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3126703,Francisco Sá
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3127073,Fruta de Leite
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31004,Janaúba,3127339,Gameleiras
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3127354,Glaucilândia
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31008,Grão Mogol,3127800,Grão Mogol
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31009,Bocaiúva,3128253,Guaraciama
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31006,Pirapora,3129608,Ibiaí
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3129657,Ibiracatu
+31,Minas Gerais,3102,Montes Claros,310011,São Francisco,3102,Norte de Minas,31003,Januária,3130051,Icaraí de Minas
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3130655,Indaiabira
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31008,Grão Mogol,3132008,Itacambira
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3132107,Itacarambi
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3135050,Jaíba
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3135100,Janaúba
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3135209,Januária
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3135357,Japonvar
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31006,Pirapora,3135605,Jequitaí
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31008,Grão Mogol,3136579,Josenópolis
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3136801,Juramento
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3136959,Juvenília
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31006,Pirapora,3137304,Lagoa dos Patos
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31006,Pirapora,3138104,Lassance
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3138658,Lontra
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3138682,Luislândia
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31004,Janaúba,3139250,Mamonas
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31003,Januária,3139300,Manga
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31003,Januária,3140852,Matias Cardoso
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31004,Janaúba,3141009,Mato Verde
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3142007,Mirabela
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31003,Januária,3142254,Miravânia
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3142700,Montalvânia
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31004,Janaúba,3142908,Monte Azul
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3143302,Montes Claros
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31005,Salinas,3143450,Montezuma
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3144656,Ninheira
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3145059,Nova Porteirinha
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3145372,Novorizonte
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31009,Bocaiúva,3145455,Olhos-d'Água
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31008,Grão Mogol,3146255,Padre Carvalho
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3146552,Pai Pedro
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3147956,Patis
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3149150,Pedras de Maria da Cruz
+31,Minas Gerais,3102,Montes Claros,310011,São Francisco,3102,Norte de Minas,31003,Januária,3150570,Pintópolis
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31006,Pirapora,3151206,Pirapora
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31007,Montes Claros,3152131,Ponto Chique
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3152204,Porteirinha
+31,Minas Gerais,3112,Patos de Minas,310063,Unaí,3102,Norte de Minas,31006,Pirapora,3154457,Riachinho
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3154507,Riacho dos Machados
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3155603,Rio Pardo de Minas
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3156502,Rubelita
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3157005,Salinas
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3157377,Santa Cruz de Salinas
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31006,Pirapora,3157609,Santa Fé de Minas
+31,Minas Gerais,3102,Montes Claros,310012,Espinosa,3102,Norte de Minas,31005,Salinas,3160454,Santo Antônio do Retiro
+31,Minas Gerais,3102,Montes Claros,310011,São Francisco,3102,Norte de Minas,31003,Januária,3161106,São Francisco
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3162252,São João da Lagoa
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3162401,São João da Ponte
+31,Minas Gerais,3102,Montes Claros,310009,Januária,3102,Norte de Minas,31003,Januária,3162450,São João das Missões
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3162658,São João do Pacuí
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3162708,São João do Paraíso
+31,Minas Gerais,3102,Montes Claros,310011,São Francisco,3102,Norte de Minas,31006,Pirapora,3164209,São Romão
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31004,Janaúba,3166956,Serranópolis de Minas
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3168002,Taiobeiras
+31,Minas Gerais,3102,Montes Claros,310011,São Francisco,3102,Norte de Minas,31007,Montes Claros,3170008,Ubaí
+31,Minas Gerais,3112,Patos de Minas,310063,Unaí,3102,Norte de Minas,31003,Januária,3170529,Urucuia
+31,Minas Gerais,3102,Montes Claros,310008,Salinas,3102,Norte de Minas,31005,Salinas,3170651,Vargem Grande do Rio Pardo
+31,Minas Gerais,3102,Montes Claros,310010,Pirapora,3102,Norte de Minas,31006,Pirapora,3170800,Várzea da Palma
+31,Minas Gerais,3102,Montes Claros,310006,Montes Claros,3102,Norte de Minas,31007,Montes Claros,3170909,Varzelândia
+31,Minas Gerais,3102,Montes Claros,310007,Janaúba,3102,Norte de Minas,31007,Montes Claros,3171030,Verdelândia

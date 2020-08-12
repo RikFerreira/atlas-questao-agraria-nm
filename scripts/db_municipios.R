@@ -4,14 +4,18 @@ library(sidrar)
 library(geobr)
 library(readxl)
 
-# Lista de municípios do Norte de Minas
+# Lista de municípios do Norte de Minas (DTB)
 nm_municipios <- read_csv("./data/mun_nm.csv")
 
+# Vetores do Norte de Minas
 nm_vetores <- read_municipality(year = 2019) %>%
+  select(code_muni) %>%
   inner_join(
     nm_municipios,
     by = c("code_muni" = "COD_MUN")
-  )
+  ) %>%
+  rename(COD_MUN = code_muni) %>%
+  mutate(COD_MUN = as.character(COD_MUN))
 
 # Tabela da população
 info_sidra(1378)
@@ -126,7 +130,7 @@ estab_financiamento <- get_sidra(
   select(
     COD_MUN = `Município (Código)`,
     ESTAB_TOTAL_FINANCIAMENTO = `46303`,
-    ESTAB_FAMILIARL_FINANCIAMENTO = `46304`
+    ESTAB_FAMILIAR_FINANCIAMENTO = `46304`
   ) %>%
   group_by(COD_MUN) %>%
   summarise_all(~{sum(.x, na.rm = TRUE)}) %>%
@@ -324,6 +328,26 @@ lav_permanente <- get_sidra(
   summarise_all(~{sum(.x, na.rm = TRUE)}) %>%
   as_tibble()
 
+# Máquinas agrícolas
+info_sidra(6874)
+
+maquinas <- get_sidra(
+  6874,
+  variable = 9572,
+  geo = "City",
+  geo.filter = list("MesoRegion" = 3102),
+  classific = list("c829")
+) %>%
+  filter(`Tipologia (Código)` == 46302) %>%
+  spread(`Variável (Código)`, Valor) %>%
+  select(
+    COD_MUN = `Município (Código)`,
+    N_MÁQUINAS = `9572`
+  ) %>%
+  group_by(COD_MUN) %>%
+  summarise_all(~{sum(.x, na.rm = TRUE)}) %>%
+  as_tibble()
+
 # PAA
 paa_estados <- left_join(
   nm_municipios %>%
@@ -377,11 +401,13 @@ territorios_cidadania <- left_join(
   mutate(
     COD_MUN = as.character(COD_MUN),
     TERRITORIOS_CIDADANIA = replace_na(TERRITORIOS_CIDADANIA, 0)
+  ) %>%
+  select(
+    COD_MUN, TERRITORIOS_CIDADANIA
   )
 
 # Construção da base de dados
 atlas_final <- nm_vetores %>%
-  select(COD_MUN = code_muni) %>% mutate(COD_MUN = as.character(COD_MUN)) %>%
   left_join(populacao, "COD_MUN") %>%
   left_join(pib, "COD_MUN") %>%
   left_join(atlas, "COD_MUN") %>%
@@ -397,10 +423,11 @@ atlas_final <- nm_vetores %>%
   left_join(bubalinos, "COD_MUN") %>%
   left_join(lav_temporaria, "COD_MUN") %>%
   left_join(lav_permanente, "COD_MUN") %>%
+  left_join(maquinas, "COD_MUN") %>%
   left_join(territorios_cidadania, "COD_MUN")
 
 atlas_final %>%
-  st_write("./output/atlas.gpkg")
+  st_write("./output/atlas.gpkg", delete_dsn = TRUE)
 
 atlas_final %>%
   st_drop_geometry() %>%
